@@ -2,17 +2,6 @@
 
 This project is built with React + Vite. To use it in your FiveM server, follow these steps.
 
-## 1. Building the Project
-
-You need to compile the React code into static HTML/CSS/JS files that FiveM can read.
-
-1.  Open the terminal.
-2.  Run the build command with the relative base path flag (crucial for FiveM):
-    ```bash
-    npx vite build --base ./
-    ```
-3.  This will create a `dist/public` folder containing `index.html` and an `assets` folder.
-
 ## 2. Creating the Resource
 
 1.  Go to your FiveM server's `resources` directory.
